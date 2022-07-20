@@ -1,0 +1,14 @@
+
+postgres=# \connect testdb;
+You are now connected to database "testdb" as user "postgres".
+testdb=# SELECT * FROM COMPANY1;
+ id | name  | age |                      address                       | salary
+----+-------+-----+----------------------------------------------------+--------
+  1 | Paul  |  32 | California                                         |  20000
+  2 | Allen |  25 | Texas                                              |  15000
+  3 | Teddy |  23 | Norway                                             |  20000
+  4 | Mark  |  25 | Rich-Mond                                          |  65000
+(4 rows)
+
+
+testdb=#
